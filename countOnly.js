@@ -5,10 +5,10 @@ const assertEqual = function(actual, expected) {
 const countOnly = (allItems, itemsToCount) => {
   let countedObject = {};
   for (const key in itemsToCount) {
-    console.log("-------------------------");
-    console.log("Test key of object:", key);
+   // console.log("-------------------------");
+   // console.log("Test key of object:", key);
     let shouldCount = itemsToCount[key];
-    console.log("Should we count:", key, shouldCount);
+   // console.log("Should we count:", key, shouldCount);
     if (shouldCount) {
       let matchedList = allItems.filter((item) => {
         console.log("Key:", key);
