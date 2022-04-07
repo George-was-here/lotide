@@ -11,7 +11,7 @@ const assertArraysEqual = (array1, array2) => {
     }
   }
 };
-//----------
+
 let eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) return false;
   for (let i = 0; i < array1.length; i++) {
@@ -22,8 +22,6 @@ let eqArrays = function(array1, array2) {
   return true;
 };
 
-//---------
-
 const words = ["ground", "control", "to", "major", "tom"];
 map = function(array, callback) {
   const results = [];
@@ -31,10 +29,5 @@ map = function(array, callback) {
     results.push(callback(item));
   }
   return results;
-}
-
-const results1 = map(words, word => word[0]);
-console.log(assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]));
-console.log(assertArraysEqual(words, [ 'ground', 'control', 'to', 'major', 'tom' ]));
-
+};
 
