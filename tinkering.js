@@ -23,7 +23,7 @@ runner(myFn);
 
 console.log(myFn("hi"));
 */ 
-
+/*
 const findWaldo = function(names, found) {
   for (let i = 0; i < names.length; i++) {
     let name = names[i];
@@ -38,3 +38,13 @@ const actionWhenFound = function() {
 }
 
 console.log(findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound));
+*/
+
+const sum = function(arr) {
+  let total = [];
+    for (let i = 0; i < arr.length; i++) {
+      total += arr[i];
+    }
+    return total;
+};
+
