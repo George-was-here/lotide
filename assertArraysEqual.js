@@ -1,3 +1,5 @@
+const eqArrays = require('./eqArrays');
+
 const assertArraysEqual = (array1, array2) => {
   if (array1.length === array2.length) {
     console.log(`🏅🏅🏅Assertion Passed: ${array1} === ${array2}`);
@@ -10,3 +12,5 @@ const assertArraysEqual = (array1, array2) => {
     }
   }
 };
+
+module.exports = assertArraysEqual;
