@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@georgeburt/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A clone of some of the helpful aspects of Lodash library, dubbed lotide, submitted in accordance with my web development bootcamp work.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/George-was-here/lotide.git"
+    "url": "git+https://github.com/George-was-here/lotide.git" 
   },
-  "author": "",
+  "author": "George Burt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/George-was-here/lotide/issues"
