@@ -17,5 +17,7 @@ const middle = (arrayMiddle) => {
   return middleReturn;
 };
 
+
+console.log(middle([3, 4 ,5 ,6]));
 module.exports = middle;
 
